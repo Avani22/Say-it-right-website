@@ -1,0 +1,175 @@
+body{
+	font: 15px/1.5 sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #777777
+	background-color: lightblue;
+	font-family: Verdana, Arial, sans-serif;
+
+} 
+
+/*Global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#wrapper{
+	margin:auto;
+ 	width:80%;	
+ 	height: 900px;
+	background-repeat: no-repeat;
+	margin:auto;
+	background-position: center;
+}
+
+
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.button_1{
+	height: 34px;
+	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+	border-radius: 5px;
+	
+
+}
+
+
+#branding img{
+	height: 9%;
+	width:9%;
+
+}
+/*Header */
+header{
+	background: darkblue;
+	color: white;
+	padding-top: 20px;
+	min-height: 50px;
+	padding-bottom: 10px;
+	font-family: sans-serif;	
+}
+
+/*Header links */
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0px 20px 20px 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+	font-weight: bold;
+} 
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+section .highlight, section .current a{
+	color: red;
+	font-weight: bold;
+}
+
+/*Showcase*/
+ #showcase{
+ 	min-height: 800px;
+ 	
+ 	background: url("../images/home-banner.jpg")no-repeat -400px; 
+ 	color: white;
+ 	text-align: left;
+ }
+
+h1{
+	line-height: 200%;
+
+
+}
+
+h2{
+	color: white;
+	font-family: Georgia, serif;
+}
+ #showcase h1{
+ 	margin-top: 100px;
+ 	font-size: 40px;
+ 	margin-bottom: 10px;
+ 
+ }
+
+ #showcase img{
+ 	height: 95%;
+ 	width: 70%;
+ 	margin-top: 100px;
+ }
+
+ #showcase p{
+ 	font-size: 20px;
+ }
+
+ #newsletter{
+ 	padding: 15px;
+ 	color:white;
+ 	background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+ }
+
+ #newsletter h1{
+ 	float: left;
+ 	color: darkblue;
+ }
+
+ #newsletter p{
+ 	font-weight: thin;
+ 	color: black;
+ }
+
+ #newsletter form{
+ 	float: right;
+ 	margin-top: 25px;
+ 	margin-bottom: 25px;
+ }
+
+ #newsletterinput [type="email"]{
+ 	padding: 4px;
+ 	height: 25px;
+ 	width: 250px;
+ }
+
+ footer{
+
+ 	padding:  40px; 
+ 	color: white;
+ 	background-color: darkblue;
+ 	padding-left: 165px;
+ 	font-size: 0.7em;
+ 	font-family: Roboto;
+ 	text-align: center;
+
+ }
